@@ -21,8 +21,125 @@ function createNewDoc(data, themeColor) {
         <title>Document</title>
         <!--------------StyleBEGIN------------->
         <style>
-    
-        </style>
+        h1 {
+           font-size: 48px;
+        }
+        h2 {
+           font-size: 40px;
+        }
+        h3 {
+           font-size: 32px;
+        }
+        h4 {
+           font-size: 24px;
+        }
+        h5 {
+           font-size: 20px;
+        }
+        h6 {
+           font-size: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+           font-family: Arial, Helvetica, sans-serif;
+           margin: 0;
+        }
+
+        .wrapper {
+           background-color: #5F64D3;
+           padding-top: 100px;
+        }
+
+        body {
+           background-color: white;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main {
+           background-color: #E9EDEE;
+           height: auto;
+           padding-top: 30px;
+        }
+
+        html, body, .wrapper {
+           height: 100%;
+        }
+
+        .picBox {
+            background-color: #990d0d;
+            color: white;
+            padding: 10px;
+            width: 95%;
+            border-radius: 5px;
+            position: relative;
+            margin: 0 auto;
+            margin-bottom: -50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .picBox img {
+           width: 220px;
+           height: 220px;
+           border-radius: 50%;
+           object-fit: contain;
+           margin-top: -75px;
+           border: 5px solid rgb(133, 19, 194);
+           box-shadow: 4px 1px 20px 4px black;
+        }
+
+        .picBox h1, .picBox h2 {
+           width: 100%;
+           text-align: center;
+        }
+
+        .container {
+        padding: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        }
+
+        .card {
+          padding: 20px;
+          border-radius: 6px;
+          background-color: rgb(41, 12, 143);
+          color: white;
+          margin: 20px;
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        
+        .col {
+           flex: 1;
+           text-align: center;
+        }
+
+        a, a:hover {
+           text-decoration: none;
+           color: inherit;
+           font-weight: bold;
+        }
+
+        .links-nav {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1.1em;
+        }
+
+        .nav-link {
+           display: inline-block;
+           margin: 5px 10px;
+        }
+        
+        
+   </style>
         <!--------------StyleEND------------->
     </head>
     <body>
