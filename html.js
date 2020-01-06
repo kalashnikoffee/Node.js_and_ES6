@@ -45,7 +45,7 @@ function createNewDoc(data, themeColor) {
         }
 
         .wrapper {
-           background-color: #5F64D3;
+           background-color: ${colors[themeColor].wrapperBackground};
            padding-top: 100px;
         }
 
@@ -65,8 +65,8 @@ function createNewDoc(data, themeColor) {
         }
 
         .picBox {
-            background-color: #990d0d;
-            color: white;
+            background-color: ${colors[themeColor].headerBackground};
+            color: ${colors[themeColor].headerColor};
             padding: 10px;
             width: 95%;
             border-radius: 5px;
@@ -84,7 +84,7 @@ function createNewDoc(data, themeColor) {
            border-radius: 50%;
            object-fit: contain;
            margin-top: -75px;
-           border: 5px solid rgb(133, 19, 194);
+           border: 5px solid ${colors[themeColor].photoBorderColor};
            box-shadow: 4px 1px 20px 4px black;
         }
 
@@ -102,8 +102,8 @@ function createNewDoc(data, themeColor) {
         .card {
           padding: 20px;
           border-radius: 6px;
-          background-color: rgb(41, 12, 143);
-          color: white;
+          background-color: ${colors[themeColor].headerBackground};
+          color: ${colors[themeColor].headerColor};
           margin: 20px;
         }
 
@@ -201,5 +201,31 @@ function createNewDoc(data, themeColor) {
     </body>
     </html>`;
   }
+  const colors = {
+    green: {
+      wrapperBackground: "#E6E1C3",
+      headerBackground: "#C1C72C",
+      headerColor: "black",
+      photoBorderColor: "#black"
+    },
+    blue: {
+      wrapperBackground: "#5F64D3",
+      headerBackground: "#26175A",
+      headerColor: "white",
+      photoBorderColor: "#73448C"
+    },
+    pink: {
+      wrapperBackground: "#879CDF",
+      headerBackground: "#FF8374",
+      headerColor: "white",
+      photoBorderColor: "#FEE24C"
+    },
+    red: {
+      wrapperBackground: "#DE9967",
+      headerBackground: "#870603",
+      headerColor: "white",
+      photoBorderColor: "white"
+    }
+  };
   
   module.exports = createNewDoc;
