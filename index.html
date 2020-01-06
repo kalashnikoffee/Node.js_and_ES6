@@ -9,51 +9,85 @@
     <!--------------StyleBEGIN------------->
     <style>
          h1 {
-         font-size: 3em;
+            font-size: 48px;
          }
          h2 {
-         font-size: 2.5em;
+            font-size: 40px;
          }
          h3 {
-         font-size: 2em;
+            font-size: 32px;
          }
          h4 {
-         font-size: 1.5em;
+            font-size: 24px;
          }
          h5 {
-         font-size: 1.3em;
+            font-size: 20px;
          }
          h6 {
-         font-size: 1.2em;
+            font-size: 20px;
          }
          h1, h2, h3, h4, h5, h6 {
-         font-family: Arial, Helvetica, sans-serif;
-         margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
          }
 
          .wrapper {
-         background-color: #5F64D3;
-         padding-top: 100px;
+            background-color: #5F64D3;
+            padding-top: 100px;
          }
 
          body {
-         background-color: white;
-         -webkit-print-color-adjust: exact !important;
-         font-family: 'Cabin', sans-serif;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
          }
 
          main {
-         background-color: #E9EDEE;
-         height: auto;
-         padding-top: 30px;
+            background-color: #E9EDEE;
+            height: auto;
+            padding-top: 30px;
          }
+
+         html, body, .wrapper {
+            height: 100%;
+         }
+
+         .picBox {
+             background-color: #c70f0f;
+             color: white;
+             padding: 10px;
+             width: 95%;
+             border-radius: 5px;
+             position: relative;
+             margin: 0 auto;
+             margin-bottom: -50px;
+             display: flex;
+             justify-content: center;
+             flex-wrap: wrap;
+         }
+
+         .picBox img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: contain;
+            margin-top: -75px;
+            border: 6px solid rgb(96, 4, 146);
+            box-shadow: 4px 1px 20px 4px black;
+         }
+
+         .picBox h1, .picBox h2 {
+            width: 100%;
+            text-align: center;
+         }
+
+         
          
     </style>
     <!--------------StyleEND------------->
 </head>
 <body>
     <div class="wrapper">
-        <div class="photo-header">
+        <div class="picBox">
           <img src="https://avatars3.githubusercontent.com/u/8908596?s=400&u=f61bbd33d0e3eb1f90570d8faf1503e3480772f3&v=4" alt="profile_pic" />
           <h1>Hi!</h1>
           <h1>My name is Lucas Coffee</h1>
