@@ -1,6 +1,6 @@
 # Node.js_and_ES6 (Profile Generator)
 Generate a profile based on your github after filling in some blanks!
-![exampleProfile](assets/exampleProfilePic.PNG)
+![exampleProfile](assets/codeSnippetGif.gif)
 
 ### Prerequisites
 
