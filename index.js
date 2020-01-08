@@ -2,7 +2,7 @@ const util = require("util");
 const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
-const generateHtml = require("./generateHtml.js");
+const generateHtml = require("./html.js");
 const puppeteer = require("puppeteer");
 const writeFileAsync = util.promisify(fs.writeFile);
 

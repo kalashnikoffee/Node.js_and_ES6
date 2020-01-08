@@ -1,29 +1,28 @@
 {
-    "name": "node.js-and-es6",
-    "version": "1.0.0",
-    "description": "Generate a profile based on your github after filling in some blanks.",
-    "main": "./scripts/app.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kalashnikoffee/Node.js_and_ES6.git"
-    },
-    "keywords": [
-      "profile",
-      "generator"
-    ],
-    "author": "kalashnikoffee",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/kalashnikoffee/Node.js_and_ES6/issues"
-    },
-    "homepage": "https://github.com/kalashnikoffee/Node.js_and_ES6#readme",
-    "dependencies": {
-      "axios": "^0.19.0",
-      "inquirer": "^7.0.0",
-      "puppeteer": "^2.0.0"
-    }
+  "name": "node.js-and-es6",
+  "version": "1.0.0",
+  "description": "Generate a profile based on your github after filling in some blanks.",
+  "main": "./scripts/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalashnikoffee/Node.js_and_ES6.git"
+  },
+  "keywords": [
+    "profile",
+    "generator"
+  ],
+  "author": "kalashnikoffee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalashnikoffee/Node.js_and_ES6/issues"
+  },
+  "homepage": "https://github.com/kalashnikoffee/Node.js_and_ES6#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "inquirer": "^7.0.3",
+    "puppeteer": "^2.0.0"
   }
-  
+}
