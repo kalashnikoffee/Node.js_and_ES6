@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/kalashnikoffee/Node.js_and_ES6#readme",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "inquirer": "^7.0.3",
     "puppeteer": "^2.0.0"
   }
